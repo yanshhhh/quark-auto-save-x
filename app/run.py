@@ -2387,7 +2387,8 @@ def get_data():
         data["plugin_config_mode"] = {
             "aria2": "independent",
             "alist_strm_gen": "independent",
-            "emby": "independent"
+            "emby": "independent",
+            "smartstrm": "independent"
         }
     
     # 初始化全局插件配置（如果不存在）
@@ -2404,6 +2405,9 @@ def get_data():
             "emby": {
                 "try_match": True,
                 "media_id": ""
+            },
+            "smartstrm": {
+                "auto_trigger": True
             }
         }
 
@@ -4943,7 +4947,8 @@ def init():
         config_data["plugin_config_mode"] = {
             "aria2": "independent",
             "alist_strm_gen": "independent",
-            "emby": "independent"
+            "emby": "independent",
+            "smartstrm": "independent"
         }
     
     # 初始化全局插件配置（如果不存在）
@@ -4960,6 +4965,9 @@ def init():
             "emby": {
                 "try_match": True,
                 "media_id": ""
+            },
+            "smartstrm": {
+                "auto_trigger": True
             }
         }
 

@@ -118,6 +118,7 @@
 - **Aria2**：自动添加下载任务，支持转存后自动删除网盘文件
 - **Emby**：自动局部刷新 Emby 媒体库
 - **Plex**：自动局部刷新 Plex 媒体库
+- **SmartStrm**：触发 SmartStrm 生成/整理 strm 文件
 - 支持自定义插件开发
 
 ### 转存记录
@@ -217,7 +218,7 @@ services:
 
 支持的插件包括：
 
-* **AList**、**AList Strm**、**AList Strm Gen**、**Aria2**、**Emby**、**Plex**
+* **AList**、**AList Strm**、**AList Strm Gen**、**Aria2**、**Emby**、**Plex**、**SmartStrm**
 
 配置后，插件会自动执行对应功能（如刷新媒体库、添加下载任务或生成 strm 文件），无需手动干预。
 
